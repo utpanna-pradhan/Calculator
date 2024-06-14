@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center shadow-lg p-3 mb-5 bg-white rounded">
+                <h1>Calculator</h1>
+                <table class="table">
+                    <!--row1-->
+                    <tr>
+                        <td colspan="3">
+                            <input type="text" id="textarea">
+                        </td>
+                        <td><input class="button_war" type="button" value="Clear"  onclick="clr()"></td>
+                    </tr>
+
+                    <!--row2-->
+                    <tr>
+                        <td>
+                            <input type="button" value="1" onclick="display('1')">
+                        </td>
+                        <td>
+                            <input type="button" value="2" onclick="display('2')">
+                        </td>
+                        <td>
+                            <input type="button" value="3" onclick="display('3')">
+                        </td>
+                        <td>
+                            <input type="button" value="/" class="button_war" onclick="display('/')">
+                        </td>
+                    </tr>
+
+
+                    <!--row3-->
+                    <tr>
+                        <td>
+                            <input type="button" value="4" onclick="display('4')">
+                        </td>
+                        <td>
+                            <input type="button" value="5" onclick="display('5')">
+                        </td>
+                        <td>
+                            <input type="button" value="6" onclick="display('6')">
+                        </td>
+                        <td>
+                            <input type="button" value="-" onclick="display('-')"  class="button_war" >
+                        </td>
+                    </tr>
+
+
+                    <!--row4-->
+                    <tr>
+                        <td>
+                            <input type="button" value="7" onclick="display('7')">
+                        </td>
+                        <td>
+                            <input type="button" value="8" onclick="display('8')">
+                        </td>
+                        <td>
+                            <input type="button" value="9" onclick="display('9')">
+                        </td>
+                        <td>
+                            <input type="button" value="+" onclick="display('+')"  class="button_war" >
+                        </td>
+                    </tr>
+
+
+                    <!--row5-->
+                    <tr>
+                        <td>
+                            <input type="button" value="." onclick="display('.')">
+                        </td>
+                        <td>
+                            <input type="button" value="0" onclick="display('0')">
+                        </td>
+                        <td>
+                            <input  class="button_cal" type="button" value="=" onclick="calculate()">
+                        </td>
+                        <td>
+                            <input type="button" value="*" onclick="display('*')"  class="button_war" >
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</html>
+<!--js path-->
+<script src="script.js"></script>
