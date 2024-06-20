@@ -1,4 +1,4 @@
 # Calculator
 
 Using HTML,CSS,JavaScript
-![OUTPUT!](Calculator\output.png)
+![OUTPUT!](output.png)
